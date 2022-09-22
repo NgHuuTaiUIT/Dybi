@@ -1,0 +1,11 @@
+@import "../../sass/_variable.scss";
+
+.footer {
+    .adress-item{
+        > li {
+            color: $txt-2;
+            font-size: 23px;
+            font-weight: 300;
+        }
+    }   
+}
