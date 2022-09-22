@@ -11,18 +11,18 @@ const Header = () => {
   return (
     <div className="w-full mx-auto header z-[10] relative py-[72px]">
       <Logo className="m-auto " />
-      <div className="absolute top-[45px] flex right-[20px] gap-[70px]">
+      <div className="absolute md:top-[45px] flex md:right-[20px] md:gap-[70px] top-3 right-[10px] gap-[10px]">
         <a
           href="https://www.facebook.com/dybi.creative"
           target={"_blank"}
           rel="noreferrer">
-          <FaceBook />
+          <FaceBook className="w-2/3 m-auto md:w-full"/>
         </a>
         <a
           href="https://www.facebook.com/dybi.creative"
           target={"_blank"}
           rel="noreferrer">
-          <Instagram />
+          <Instagram className="w-2/3 m-auto md:w-full"/>
         </a>
       </div>
     </div>
