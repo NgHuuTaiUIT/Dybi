@@ -163,7 +163,11 @@ const FormCustom = () => {
                 <h1 className="whitespace-nowrap pb-[18px]">Tên của bạn</h1>
               }
               rules={[{ required: true }]}>
-              <Input className=" !bg-[#2221601A] py-[15px] border-0" />
+              <Input
+                className=" !bg-[#2221601A] py-[15px] border-0 "
+                size="large"
+                enterKeyHint=""
+              />
             </Form.Item>
             <Form.Item
               className="md:inline-block md:w-[48%] w-full md:ml-[3%]"
@@ -172,7 +176,10 @@ const FormCustom = () => {
                 <h1 className="whitespace-nowrap pb-[18px]">Địa chỉ email</h1>
               }
               rules={[{ type: "email" }]}>
-              <Input className=" !bg-[#2221601A] py-[15px] border-0" />
+              <Input
+                className=" !bg-[#2221601A] py-[15px] border-0"
+                size="large"
+              />
             </Form.Item>
             <Form.Item
               name={["user", "introduction"]}
@@ -184,6 +191,7 @@ const FormCustom = () => {
               className="w-full">
               <Input.TextArea
                 className=" !bg-[#2221601A] w-full border-0"
+                size="large"
                 rows={10}
               />
             </Form.Item>
