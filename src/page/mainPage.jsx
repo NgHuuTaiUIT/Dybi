@@ -10,7 +10,9 @@ const Dropdown = ({ tab }) => {
   // const [activeItem, setActiveItem] = useState(0);
   const data = getData(tab);
   return (
-    <Container style={{ minHeight: "0" }} className={`mt-[50px] ${tab === 1 && 'mt-[100px]'}`}>
+    <Container
+      style={{ minHeight: "0" }}
+      className={`mt-[50px] ${tab === 1 && "mt-[100px]"}`}>
       <div className="max-w-[980px] mx-auto">
         <CollapseCustom data={data} />
       </div>
@@ -27,7 +29,7 @@ const CollapseCustom = ({ data }) => {
       // defaultActiveKey={["1"]}
       expandIcon={panel => (
         <ArrowDown
-          className={`${
+          className={`icon ${
             panel.isActive ? "transform !rotate-180" : "transform !rotate-0 "
           } translate-y-[-50%] transition-all`}
         />
@@ -186,7 +188,9 @@ const FormCustom = () => {
               />
             </Form.Item>
             <Form.Item>
-              <button htmlType="submit" className="hover:bg-btnHover active:bg-btnHover hover:text-white active:text-white">
+              <button
+                htmlType="submit"
+                className="hover:bg-btnHover active:bg-btnHover hover:text-white active:text-white">
                 Gửi tin nhắn
               </button>
             </Form.Item>
@@ -204,7 +208,7 @@ const MainPage = () => {
     <div>
       <TabsCustom onChange={key => setTab(key)} tab={tab} />
       {tab !== 2 ? <Dropdown tab={tab} /> : <FormCustom />}
-      {tab !== 1 && <GridImage /> }
+      {tab !== 1 && <GridImage />}
     </div>
   );
 };

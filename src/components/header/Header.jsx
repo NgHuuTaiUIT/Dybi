@@ -16,13 +16,13 @@ const Header = () => {
           href="https://www.facebook.com/dybi.creative"
           target={"_blank"}
           rel="noreferrer">
-          <FaceBook className="w-2/3 m-auto md:w-full"/>
+          <FaceBook className="m-auto icon"/>
         </a>
         <a
           href="https://www.facebook.com/dybi.creative"
           target={"_blank"}
           rel="noreferrer">
-          <Instagram className="w-2/3 m-auto md:w-full"/>
+          <Instagram className="m-auto icon"/>
         </a>
       </div>
     </div>
