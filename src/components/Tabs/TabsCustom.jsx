@@ -80,6 +80,7 @@ const data = [
 ];
 const TabsCustom = ({ tab, onChange }) => (
   <Container>
+    {console.log(tab)}
     <div
       className="h-[915px] !bg-cover"
       style={{
