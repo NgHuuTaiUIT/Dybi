@@ -10,7 +10,7 @@ const Dropdown = ({ tab }) => {
   // const [activeItem, setActiveItem] = useState(0);
   const data = getData(tab);
   return (
-    <Container style={{ minHeight: "0" }}>
+    <Container style={{ minHeight: "0" }} className={`mt-[50px] ${tab === 1 && 'mt-[100px]'}`}>
       <div className="max-w-[980px] mx-auto">
         <CollapseCustom data={data} />
       </div>
@@ -61,10 +61,10 @@ const PanelItem = ({ panel }) => {
       }}
       className="w-full flex flex-col gap-[20px] p-[30px] mb-[35px] !bg-cover">
       {panel.sub !== "" && (
-        <span className="italic text-[15px]">{panel.sub}</span>
+        <span className="italic text-[15px] text-white">{panel.sub}</span>
       )}
       <h2>{panel.title}</h2>
-      <span className="text-ellipsis-3">{panel.text}</span>
+      <span className="text-white text-ellipsis-3">{panel.text}</span>
       <ArrowRight />
     </div>
   );
@@ -143,10 +143,10 @@ const FormCustom = () => {
 
   return (
     <>
-      <Container className="!min-h-0">
+      <Container className="!min-h-0 mt-[60px]">
         <div className="max-w-[80%] m-auto" id="sendEmail">
           <h1 className="text-center max-w-[100%] text-[72px] leading-normal mb-[82px]">
-            Gửi tin nhắn
+            Gửi Tin Nhắn
           </h1>
           <Form
             // {...layout}

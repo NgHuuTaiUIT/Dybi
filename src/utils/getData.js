@@ -43,7 +43,7 @@ const dataTab1 = [
           background: "./assets/images/bg-sohoa.png"
         },
         {
-          text: "Số hoá vật mang tin bằng các loại chất liệu đặc thù",
+          text: "Số hoá các vật mang thông tin khác trên các loại chất liệu đặc thù như bằng vải, gỗ,... nhưng vẫn đảm bảo tối đa về chất lượng hình ảnh, nội dung trên các hiện vật.",
           title: "Số hoá vật mang tin bằng các loại chất liệu đặc thù",
           background: "./assets/images/bg-sohoa.png"
         }

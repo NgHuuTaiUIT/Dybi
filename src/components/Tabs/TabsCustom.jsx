@@ -79,10 +79,8 @@ const data = [
   }
 ];
 const TabsCustom = ({ tab, onChange }) => (
-  <Container>
-    {console.log(tab)}
     <div
-      className="h-[915px] !bg-cover"
+      className="h-[915px] !bg-cover relative"
       style={{
         background: "url(./assets/images/bg-tabs.png) no-repeat"
       }}>
@@ -105,7 +103,6 @@ const TabsCustom = ({ tab, onChange }) => (
         })}
       />
     </div>
-  </Container>
 );
 
 export default TabsCustom;
