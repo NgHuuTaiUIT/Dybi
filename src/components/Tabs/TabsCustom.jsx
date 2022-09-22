@@ -80,12 +80,12 @@ const data = [
 ];
 const TabsCustom = ({ tab, onChange }) => (
     <div
-      className="h-[915px] !bg-cover relative"
+      className="h-[915px] !bg-cover relative !bg-center"
       style={{
         background: "url(./assets/images/bg-tabs.png) no-repeat"
       }}>
       <div
-        className="absolute inset-0 !bg-cover transition-opacity duration-700"
+        className="absolute inset-0 !bg-cover transition-opacity duration-700 !bg-center"
         style={{
           background: "url(./assets/images/bg-tabs-2.png) no-repeat",
           opacity: tab === 1 ? 1 : 0
