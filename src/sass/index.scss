@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .App {
@@ -24,6 +25,8 @@ html {
   width: 100%;
   color: $txt-1;
   font-family: "Be Vietnam Pro","Roboto";
+  overflow-x: hidden;
+
 }
 h1,
 h2,
