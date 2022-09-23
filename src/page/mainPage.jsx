@@ -12,8 +12,8 @@ const Dropdown = ({ tab }) => {
   return (
     <Container
       style={{ minHeight: "0" }}
-      className={`mt-[50px] ${tab === 1 && "mt-[100px]"}`}>
-      <div className="max-w-[980px] mx-auto">
+      className={`mt-[50px] ${tab === 1 ? "mt-[100px]" : ""}`}>
+      <div className="max-w-[980px] mx-auto mb-[137px]">
         <CollapseCustom data={data} />
       </div>
     </Container>
@@ -40,6 +40,7 @@ const CollapseCustom = ({ data }) => {
         <Panel
           header={<h1 className="flex justify-between">{item.header}</h1>}
           className="pb-[12px] mt-[30px]"
+          style={{borderBottom: `1px solid rgba(34, 33, 96, 0.3)`}}
           key={`${idx + 1}`}>
           {item.body.type === "normal" &&
             item.body.children.map((panelItem, idx) => (
@@ -147,7 +148,7 @@ const FormCustom = () => {
     <>
       <Container className="!min-h-0 mt-[60px]">
         <div className="max-w-[80%] m-auto" id="sendEmail">
-          <h1 className="text-center max-w-[100%] text-[72px] leading-normal mb-[82px]">
+          <h1 className="text-center max-w-[100%] text-[72px] leading-[124px] mb-[82px] uppercase">
             Gửi Tin Nhắn
           </h1>
           <Form
@@ -204,7 +205,7 @@ const FormCustom = () => {
             </Form.Item>
           </Form>
         </div>
-        <div className="w-[60%] border border-solid border-[#2221604D] m-auto mt-[127px]"></div>
+        <div className="w-[60%] border border-solid border-[#2221604D] m-auto my-[127px]"></div>
       </Container>
     </>
   );

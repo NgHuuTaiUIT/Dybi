@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9082ad5a.css",
-    "main.js": "./static/js/main.3b370cdf.js",
+    "main.css": "./static/css/main.00820eb9.css",
+    "main.js": "./static/js/main.d058d484.js",
     "static/media/Dybi-logo.svg": "./static/media/Dybi-logo.47ce50deb1919e9ce666364935ed3eb8.svg",
     "static/media/instagram.svg": "./static/media/instagram.babc75b713e6037c79d54abe6c76cc3d.svg",
     "static/media/comma.svg": "./static/media/comma.af869d559dbbd93b682c311886cf2d37.svg",
@@ -10,11 +10,11 @@
     "static/media/arrow-right.svg": "./static/media/arrow-right.918ad48963783483c3309fb06a497ae5.svg",
     "static/media/arrow-down.svg": "./static/media/arrow-down.182f700641647f00343a9d7a73c25ee2.svg",
     "static/media/arrow-right-dark.svg": "./static/media/arrow-right-dark.ced491867d38dcdd2d52a241a0bb1810.svg",
-    "main.9082ad5a.css.map": "./static/css/main.9082ad5a.css.map",
-    "main.3b370cdf.js.map": "./static/js/main.3b370cdf.js.map"
+    "main.00820eb9.css.map": "./static/css/main.00820eb9.css.map",
+    "main.d058d484.js.map": "./static/js/main.d058d484.js.map"
   },
   "entrypoints": [
-    "static/css/main.9082ad5a.css",
-    "static/js/main.3b370cdf.js"
+    "static/css/main.00820eb9.css",
+    "static/js/main.d058d484.js"
   ]
 }

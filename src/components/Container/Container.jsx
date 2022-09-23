@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Container = (props) => {
-    const { fluid } = props;
+    const { fluid, minH100 } = props;
     return (
-        <div className={`min-h-[100vh] w-full relative overflow-x-hidden mb-[125px] ${props.className} ${fluid && 'fluid'}`} style={props.style}>
+        <div className={`${minH100 ? 'min-h-[100vh]' : ''} w-full relative overflow-x-hidden ${props.className} ${fluid && 'fluid'}`} style={props.style}>
              {props.background && <img
                 src={props.background}
                 alt=""
