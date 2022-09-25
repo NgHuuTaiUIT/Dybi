@@ -46,12 +46,12 @@ const ProjectTab = () => {
 
 const ContactTab = () => {
   return (
-    <div className="flex items-center justify-center md:gap-[10%] flex-wrap gap-5">
+    <div className="flex md:items-center items-start justify-center md:gap-[10%] flex-col md:flex-row gap-5">
       <div className="flex flex-col items-center justify-center flex-1 md:gap-[70px] gap-[35px] ">
         <h1 className="w-full md:text-[52px] text-[40px]">Chuyển đổi số ngay</h1>
-        <a href="#sendEmail" className="flex flex-wrap items-center justify-between w-full gap-5 md:gap-0 p-[10px] text-[#FFFFFF66] hover:text-white hover:bg-btnHover hover:pl-4 transition-all duration-500 cursor-pointer">
-          <span className=" text-[32px] font-extralight">Liên hệ với chúng tôi</span>
-          <ArrowRightDark />
+        <a href="#sendEmail" className="flex items-center justify-between w-full gap-4 p-[10px] text-[#FFFFFF66] hover:text-white hover:bg-btnHover hover:pl-4 transition-all duration-500 cursor-pointer">
+          <span className=" md:text-[32px] text-[24px] font-extralight">Liên hệ với chúng tôi</span>
+          <ArrowRightDark className="md:w-[100px] md:h-[54px] w-[50px] h-[27px]"/>
         </a>
       </div>
       <div className="flex-1 flex gap-[24px] md:gap-[46px] flex-col">
