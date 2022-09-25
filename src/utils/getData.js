@@ -182,13 +182,15 @@ const dataTab2 = [
           text: "Nhà trưng bày được xây dựng nhằm góp phần phục vụ tốt hơn nhu cầu tham quan, học tập, tìm hiểu về Chủ tịch Hồ Chí Minh, thông qua hai chuyên đề: Chủ tịch Hồ Chí Minh danh nhân văn hoá kiệt xuất và Chủ tịch Hồ Chí Minh với thể dục thể thao Việt Nam.",
           title: "HỒ CHÍ MINH DANH NHÂN VĂN HÓA KIỆT XUẤT",
           background: "./assets/images/danhnhan-1.png",
-          sub: "Nhà trưng bày"
+          sub: "Nhà trưng bày",
+          href:"https://refs.sgallery.vn/hcm/vrtour/"
         },
         {
           text: "Đây là một trong những hoạt động trưng bày đã triển khai dịp kỷ niệm 200 năm Ngày sinh Danh nhân Nguyễn Đình Chiểu, tại Di tích Quốc gia đặc biệt Mộ và Khu lưu niệm Nguyễn Đình Chiểu. Hoạt động trưng bày ảo thông qua kỹ thuật công nghệ số - là một trong những nội dung trình gửi UNESCO để chính thức thông qua nghị quyết vinh danh Nguyễn Đình Chiểu là nhà thơ, nhà văn hóa lớn của nhân loại.",
           title: "NGUYỄN ĐÌNH CHIỂU CUỘC ĐỜI VÀ SỰ NGHIỆP",
           background: "./assets/images/danhnhan-2.png",
-          sub: "Triển lãm"
+          sub: "Triển lãm",
+          href:"https://refs.sgallery.vn/ndc/vrtour/"
         }
       ]
     }
@@ -202,13 +204,15 @@ const dataTab2 = [
           text: "Triển lãm nhằm tôn vinh, phát huy giá trị lịch sử - văn hóa của di tích Dinh trấn Thanh Chiêm và sự ra đời chữ Quốc ngữ, tạo điều kiện mở rộng quảng bá và phát triển du lịch nhằm góp phần phát triển kinh tế - xã hội của Thị xã Điện Bàn, tỉnh Quảng Nam.",
           title: "420 NĂM DINH TRẤN THANH CHIÊM",
           background: "./assets/images/sukien-1.png",
-          sub: "Nhà trưng bày"
+          sub: "Nhà trưng bày",
+          href:"https://refs.sgallery.vn/baotangquangnam/vrtour/"
         },
         {
           text: "Triển lãm “Hậu Phương Thời Chiến” do Trung Tâm Lưu Trữ Quốc Gia IV và đội ngũ DyBi thực hiện, giới thiệu hơn 100 tác phẩm của nhiếp ảnh gia Mầu Hoàng Thiết về hoàn cảnh lịch sử, những năm 1959 – 1975, hậu phương miền Bắc đã hỗ trợ đắc lực sức người, sức của cho “thành đồng” miền Nam ruột thịt trong cuộc kháng chiến chống Mỹ cứu nước,",
           title: "HẬU PHƯƠNG THỜI CHIẾN",
           background: "./assets/images/sukien-2.png",
-          sub: "Triển lãm"
+          sub: "Triển lãm",
+          href:"https://sgallery.vn/exhibition/47"
         }
       ]
     }
@@ -222,7 +226,8 @@ const dataTab2 = [
           text: "Một sản phẩm khác do DyBi phối hợp cùng Trung Tâm Lưu Trữ Quốc Gia IV thực hiện chính là Thiên Hùng Ca Sử Việt”, kể về lịch sử 4000 năm của dân tộc, các thế hệ người Việt đã viết nên những bản hùng ca vẻ vang về quá trình dựng nước và giữ nước.",
           title: "THIÊN HÙNG CA SỬ VIỆT",
           background: "./assets/images/lichsu-1.png",
-          sub: "Triển lãm"
+          sub: "Triển lãm",
+          href:"https://sgallery.vn/exhibition/48"
         }
       ]
     }
@@ -236,13 +241,15 @@ const dataTab2 = [
           text: "Triển lãm tranh Trịnh Công Sơn - “Lời thiên thu gọi” là triển lãm lần đầu tiên áp dụng công nghệ thực tế ảo vào triển lãm đã thổi một luồng sinh khí mới vào lĩnh vực nghệ thuật, góp thêm một cách tiếp cận, thưởng lãm sinh động và xóa nhòa mọi ranh giới về thời gian, không gian cho công chúng.",
           title: "LỜI THIÊN THU GỌI",
           background: "./assets/images/nghethuat-1.png",
-          sub: "Triển lãm tranh"
+          sub: "Triển lãm tranh",
+          href:"https://sgallery.vn/exhibition/63"
         },
         {
           text: "Triển lãm tranh Đinh Phong - “Người bay & Giấc mơ siêu thực” là triển lãm trực tuyến, diễn ra song song với triển lãm của họa sĩ tại Bảo tàng Mỹ thuật Thành phố Hồ Chí Minh, lan tỏa những niềm đồng điệu về hội họa của họa sĩ tới công chúng thưởng lãm nghệ thuật.",
           title: "NGƯỜI BAY VÀ GIẤC MƠ SIÊU THỰC",
           background: "./assets/images/nghethuat-2.png",
-          sub: "Triển lãm tranh"
+          sub: "Triển lãm tranh",
+          href:"https://sgallery.vn/exhibition/46"
         }
       ]
     }
@@ -256,7 +263,8 @@ const dataTab2 = [
           text: "Trúc Chỉ là Nghệ - thuật - giấy, Giấy – nghệ - thuật của Việt Nam, một Giá trị Việt mới có điểm khởi đầu và quê hương tại Cố đô Huế.",
           title: "TRÚC CHỈ",
           background: "./assets/images/langnghe-1.png",
-          sub: ""
+          sub: "",
+          href:"https://refs.sgallery.vn/trucchi/showroomvr"
         }
       ]
     }

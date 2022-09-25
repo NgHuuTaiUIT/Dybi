@@ -58,7 +58,7 @@ const ContactTab = () => {
         <h1 className="w-full text-[52px] md:text-[72px] leading-normal">Văn phòng</h1>
         <p>35 Nguyễn Thông, P. Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh</p>
         <span className="text-[32px] text-white font-bold">SGallery.vn</span>
-        <p>(01) 2345 6789</p>
+        <p>(09) 0727 7265</p>
       </div>
     </div>
   );

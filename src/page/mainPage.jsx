@@ -58,7 +58,10 @@ const CollapseCustom = ({ data }) => {
 
 const PanelItem = ({ panel }) => {
   return (
-    <div
+    <a
+      href={panel.href ?? ""}
+      target="_blank"
+      rel="noreferrer"
       style={{
         background: `url(${panel.background}) no-repeat`
       }}
@@ -69,7 +72,7 @@ const PanelItem = ({ panel }) => {
       <h2>{panel.title}</h2>
       <span className="text-white text-ellipsis-3">{panel.text}</span>
       <ArrowRight />
-    </div>
+    </a>
   );
 };
 
