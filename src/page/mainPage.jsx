@@ -41,7 +41,7 @@ const CollapseCustom = ({ data }) => {
           header={<h1 className="flex justify-between">{item.header}</h1>}
           className="pb-[12px] mt-[30px]"
           style={{borderBottom: `1px solid rgba(34, 33, 96, 0.3)`}}
-          key={`${idx + 1}`}>
+          key={`${idx}-${item.header}`}>
           {item.body.type === "normal" &&
             item.body.children.map((panelItem, idx) => (
               <PanelItem panel={panelItem} key={`children-${idx}`} />
