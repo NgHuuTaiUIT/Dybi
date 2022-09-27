@@ -65,12 +65,12 @@ const PanelItem = ({ panel }) => {
       style={{
         background: `url(${panel.background}) no-repeat`
       }}
-      className="w-full flex flex-col gap-[20px] p-[30px] mb-[35px] !bg-cover">
+      className="w-full flex flex-col gap-[10px] md:gap-[20px] p-[30px] mb-[35px] !bg-cover">
       {panel.sub !== "" && (
         <span className="italic text-[15px] text-white">{panel.sub}</span>
       )}
-      <h2>{panel.title}</h2>
-      <span className="text-white text-ellipsis-3">{panel.text}</span>
+      <h2 className="leading-tight">{panel.title}</h2>
+      <span className="text-white">{panel.text}</span>
       <ArrowRight />
     </a>
   );
